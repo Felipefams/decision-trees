@@ -1,0 +1,9 @@
+1) os algoritmo ID3 e C4.5 são ambos algoritmos de arvore de decisão usados para classificação, sendo que
+o algoritmo C4.5 é uma versão otimizada do ID3, que consegue lidar com valores continuos e informações
+inconsistentes, enquanto o ID3 não. Além disso o C4.5 usa a taxa de ganho enquanto o ID3 usa 
+o ganho de informação em si.
+
+2) quando o C4.5 encontra um dado numerico em um dataset, primeiro ele ordena os valores em ordem crescente
+e depois ele calcula o ponto médio entre os pares de valores adjacentes. Após isso, é realizada uma divisão 
+dos atributos numéricos em categorias discretas, que só depois são tradas como atributos separados na construção
+da árvore de decisão.
